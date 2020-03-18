@@ -1,2 +1,2 @@
-# serverless_contact_form
-Serverless Contact Form running on AwsLambda, ApiGateway, 
+# Serverless_Contact_Form
+Serverless Contact Form running on AwsLambda, ApiGateway, SES.
