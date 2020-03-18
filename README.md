@@ -10,3 +10,5 @@ Serverless Contact Form running on AwsLambda, ApiGateway, SES.
   curl -i your_api_gateway_url --data-urlencode "name=John" --data-urlencode "email=john@example.com" --data-urlencode "message=hi there"<br>
 6.Now create a webpage for the UI.<br>
 7.And Host this webpage through S3.
+ { https://medium.com/@kyle.galbraith/how-to-host-a-website-on-s3-without-getting-lost-in-the-sea-e2b82aa6cd38 }
+ 
