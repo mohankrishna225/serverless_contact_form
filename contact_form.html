@@ -56,7 +56,7 @@
         return
       }
 
-      $.post('https://btko9h88bd.execute-api.us-east-1.amazonaws.com/default/contact_form', {name, email, message}).done(_ => {
+      $.post('your_api_gateway_endpoint', {name, email, message}).done(_ => {
         showMessage("Thanks for contacting us. We'll be in touch shortly.", 'success')
       }).fail(_ => {
         showMessage('Something went wrong when submiting the message', 'danger')
