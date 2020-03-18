@@ -8,5 +8,5 @@ Serverless Contact Form running on AwsLambda, ApiGateway, SES.
 4.Add a Trigger with Apigateway to this lambda function.<br>
 5.Test if its created successfully or not using <br>
   curl -i your_api_gateway_url --data-urlencode "name=John" --data-urlencode "email=john@example.com" --data-urlencode "message=hi there"<br>
-6.Now create a webpage for the UI.
+6.Now create a webpage for the UI.<br>
 7.And Host this webpage through S3.
